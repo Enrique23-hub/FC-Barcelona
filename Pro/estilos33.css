@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(16, 40, 65);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img{
+    height: 70px;
+    vertical-align: middle;
+}
+.logo img{
+    height: 70px;
+    vertical-align: middle;
+}
+
+.en {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+}
+.en:hover {
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(31, 67, 105);
+    margin-top: 90px;
+}
+
+.imagen{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 270px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+
+    .contenedor {
+      position: relative;
+      width: 580px;
+      margin: 50px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .imagen-jugador {
+      width: 100%;
+      display: block;
+      border-radius: 10px;
+    }
+
+    .submenu {
+      position: absolute;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      background-color:  rgb(16, 40, 65);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      transition: bottom 0.4s ease;
+    }
+
+    .contenedor:hover .submenu {
+      bottom: 0;
+    }
+
+    .submenu h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .submenu p {
+      margin: 5px 0 0;
+      font-size: 14px;
+    }
+
+    .pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #020a1b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.pie img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 120px;
+    border-radius: 30px;
+    margin-top: 0px;
+}
+
+.pie p {
+    font-size: 16px;
+}
+
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.links a img {
+    height: 70px;
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+}
+
+.links a img:hover {
+    transform: scale(1.2);
+}
